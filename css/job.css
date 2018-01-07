@@ -24,6 +24,9 @@ html{
 .sp-10{
     font-size: .1rem;
 }
+.sp-16{
+    font-size: .16rem;
+}
 .x-1of2{
     flex-basis: 50%;
   }
@@ -49,7 +52,6 @@ html{
 }
 /*以上为job-warp*/
 
-
 .job-nav{
     line-height: 1rem;
     font-size: .14rem;
@@ -64,9 +66,10 @@ html{
     text-align: center;
     margin: 0 1%;
     color: white;
-    border-bottom: #b13140 2px solid;
     text-decoration: none;
-    box-sizing: border-box;
+}
+.job-nav a:hover{
+    border-bottom: 2px white solid;
 }
 /*以上为header*/
 .job-main{
@@ -95,13 +98,16 @@ html{
     display: inline-block;
     line-height: .5rem;
     width: 100%;
+    min-width: 9.94rem;
+
     border-bottom: #bfbfbf 1px solid;
     margin-top: .3rem;
 }
 .-job-main-ct-grp{
     width: 100%;
+    min-width: 9.94rem;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .job-intro{
     height:auto;
@@ -111,8 +117,12 @@ html{
     border: 1px #e9e9e9 solid;
 
 }
+.intro-mid{
+    margin-right: 2%;
+    margin-left: 2%;
+}
 .img-head{
-    width: 81px;
+    width: 90px;
     height: 110px;
     margin-right: 5px;
 }
@@ -177,15 +187,56 @@ html{
     border-bottom: #e9e9e9 1px solid;
 }
 footer{
-    height: 2.5rem;
-    background-color: #1aa36f;
-}
-.ft-top{
     height: 2rem;
+    background-color: #1aa36f;
+    font-size: 14px;
+    min-width: 11.63rem;
+}
+
+.ft-top{
+    height:1.6rem;
+    padding: .2rem 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.ft-top a{
+    color: white;
+    text-decoration: none;
+}
+.ft-top-lt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ft-top-lt span{
+}
+.ft-top-mid{
+    display: flex;
+    height: 1.2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:end;
+    margin-left: -1rem;
+}
+
+.ft-top-mid a{
+    line-height: .4rem;
+    margin-left: .2rem;
+}
+
+.ft-top-rt{
+    text-align: center;
 }
 .ft-bt{
-    height: .5rem;
+    padding: 0 10%;
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
     width: 100%;
-    border-top: #e0e0e0 1px solid;
+    color: white;
+    border-top: #2ab983  1px solid;
+    font-size: 12px;
 }
+
 
