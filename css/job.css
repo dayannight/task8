@@ -110,13 +110,33 @@ html{
     flex-wrap: wrap;
 }
 .job-intro{
+    position: relative;
     height:auto;
     width: 32%;
     min-width:3.17rem;
     margin: .3rem 0 0 0;
     border: 1px #e9e9e9 solid;
-
 }
+.job-intro-hover{
+    position: absolute;
+    width:100%;
+    height:100%;
+    color: white;
+    background-color:rgba(0,0,0,0.7);
+    padding: .3rem .4rem;
+    display: none;
+    z-index: 11;
+}
+.job-intro:hover .job-intro-hover{
+    display: block;
+}
+.job-intro-hover h4{
+    text-align: center;
+}
+.job-intro-hover p{
+    text-indent: 2em;
+}
+
 .intro-mid{
     margin-right: 2%;
     margin-left: 2%;
