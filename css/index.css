@@ -29,7 +29,11 @@ html{
 .sp-16{
     font-size: .16rem;
 }
+header{
+    display: flex;
+    flex-direction: column;
 
+}
 .job-warp{
     padding: 0 5%;
     line-height: .4rem;
@@ -258,20 +262,18 @@ footer{
     justify-content: space-around;
     flex-wrap: wrap;
     color: #9ca0a0;
+    padding-left: 0;
 }
 .ft-ul1 li,.ft-ul2 li{
-    flex-basis: 10%;
-    min-width: 69px;
+    flex-basis: 7.7%;
+    min-width: 65px;
 }
 .ft-ul1 li:hover{
     text-decoration: #2ab983 solid ;
 }
-.ft-top{
-    height:1.6rem;
-    padding: .2rem 10%;
+.ft-top{padding-top: .12rem;
+    padding-bottom: .12rem;
     color: white;
-    display: flex;
-    justify-content: space-between;
     background-color: #1aa36f;
 }
 .ft-top a{
@@ -279,6 +281,7 @@ footer{
     text-decoration: none;
 }
 .ft-top-lt{
+    height: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -286,21 +289,22 @@ footer{
 .ft-top-lt span{
 }
 .ft-top-mid{
-    display: flex;
     height: 1.2rem;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:end;
-    margin-left: -1rem;
 }
 
 .ft-top-mid a{
     line-height: .4rem;
-    margin-left: .2rem;
+}
+.ft-top-mid span{
 }
 
 .ft-top-rt{
     text-align: center;
+
 }
 .ft-bt{
     padding: 0 10%;

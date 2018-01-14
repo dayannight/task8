@@ -50,6 +50,11 @@ html{
     margin: 0 1%;
 
 }
+header{
+    display: flex;
+    flex-direction: column;
+
+}
 /*以上为job-warp*/
 
 .job-nav{
