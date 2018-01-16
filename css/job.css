@@ -99,28 +99,31 @@ header{
     background-color: #1cb177;
     color: white;
 }
+
 .content-sp1{
     display: inline-block;
     line-height: .5rem;
-    width: 100%;
-    min-width: 9.94rem;
-
     border-bottom: #bfbfbf 1px solid;
     margin-top: .3rem;
 }
-.-job-main-ct-grp{
-    width: 100%;
-    min-width: 9.94rem;
-    display: flex;
-    flex-wrap: wrap;
+.row{
+    margin-top: .2rem;
+}
+.job-main{
+    background-color: #fafafa;
 }
 .job-intro{
+    padding: 0 5px;
+}
+.main-blk{
     position: relative;
-    height:auto;
-    width: 32%;
-    min-width:3.17rem;
-    margin: .3rem 0 0 0;
     border: 1px #e9e9e9 solid;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: .1rem;
+    background-color: white;
+
+
 }
 .job-intro-hover{
     position: absolute;
@@ -140,11 +143,6 @@ header{
 }
 .job-intro-hover p{
     text-indent: 2em;
-}
-
-.intro-mid{
-    margin-right: 2%;
-    margin-left: 2%;
 }
 .img-head{
     width: 90px;
@@ -212,24 +210,19 @@ header{
     border-bottom: #e9e9e9 1px solid;
 }
 footer{
-    height: 2rem;
-    background-color: #1aa36f;
-    font-size: 14px;
-    min-width: 11.63rem;
+    margin-top: 1rem;
 }
-
-.ft-top{
-    height:1.6rem;
-    padding: .2rem 10%;
+.ft-top{padding-top: .12rem;
+    padding-bottom: .12rem;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    background-color: #1aa36f;
 }
 .ft-top a{
     color: white;
     text-decoration: none;
 }
 .ft-top-lt{
+    height: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -237,21 +230,25 @@ footer{
 .ft-top-lt span{
 }
 .ft-top-mid{
-    display: flex;
     height: 1.2rem;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:end;
-    margin-left: -1rem;
+    margin-bottom: .2rem;
 }
 
 .ft-top-mid a{
     line-height: .4rem;
-    margin-left: .2rem;
+}
+.ft-top-mid span{
 }
 
-.ft-top-rt{
-    text-align: center;
+.ft-rt-imgblk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1.4rem;
 }
 .ft-bt{
     padding: 0 10%;
@@ -262,6 +259,9 @@ footer{
     color: white;
     border-top: #2ab983  1px solid;
     font-size: 12px;
+    background-color: #1aa36f;
+}
+html{
 }
 
 

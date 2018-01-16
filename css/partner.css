@@ -1,5 +1,6 @@
 html{
     font-size: 625%;
+
 }
 
 .sp-b{
@@ -80,15 +81,18 @@ header{
 
 
 
+
+
 /*以上为header*/
 main{
     padding: .2rem 10% 0 10%;
 }
 .partner-main-nav{
     margin-bottom: .2rem;
+    padding-left: 15px;
 }
 .main-left{
-    width: 95%;
+    width: 100%;
     border: 1px #e9e9e9 solid;
     display: flex;
     flex-direction: column;
@@ -123,10 +127,12 @@ main{
     color: #fe751b;
 }
 .left,.right{
-   padding: 0;
+
 }
 .left{
     margin-bottom:.5rem;
+}
+.right{
 }
 
 
@@ -182,6 +188,7 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:end;
+    margin-bottom: .2rem;
 }
 
 .ft-top-mid a{
@@ -190,9 +197,11 @@ footer{
 .ft-top-mid span{
 }
 
-.ft-top-rt{
-    text-align: center;
-
+.ft-rt-imgblk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1.4rem;
 }
 .ft-bt{
     padding: 0 10%;

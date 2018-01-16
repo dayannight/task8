@@ -294,6 +294,7 @@ footer{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:end;
+    margin-bottom: .1rem;
 }
 
 .ft-top-mid a{
@@ -302,9 +303,11 @@ footer{
 .ft-top-mid span{
 }
 
-.ft-top-rt{
-    text-align: center;
-
+.ft-rt-imgblk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1.4rem;
 }
 .ft-bt{
     padding: 0 10%;
@@ -317,6 +320,7 @@ footer{
     font-size: 12px;
     background-color: #1aa36f;
 }
+
 
 
 
