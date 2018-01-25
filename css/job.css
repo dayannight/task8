@@ -212,10 +212,12 @@ header{
 }
 footer{
     margin-top: 1rem;
-}
-.ft-top{padding-top: .12rem;
-    padding-bottom: .12rem;
     color: white;
+}
+.ft-top{
+    padding-top: .12rem;
+    padding-bottom: .12rem;
+    padding-left: .1rem;
     background-color: #1aa36f;
 }
 .ft-top a{
@@ -231,25 +233,37 @@ footer{
 .ft-top-lt span{
 }
 .ft-top-mid{
+
+}
+@media all and (max-width: 768px) {
+    .what{
+        width: 40%;
+    }
+
+}
+.what{
+
     height: 1.2rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:end;
-    margin-bottom: .2rem;
+    margin-bottom: .1rem;
 }
 
-.ft-top-mid a{
+.what a{
     line-height: .4rem;
 }
-.ft-top-mid span{
+.what span{
 }
 
 .ft-rt-imgblk{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
     width: 1.4rem;
+}
+.ft-rt-imgblk img{
+    margin-top: .1rem;
+    width: 84px;
 }
 .ft-bt{
     padding: 0 10%;
@@ -263,6 +277,10 @@ footer{
     background-color: #1aa36f;
 }
 html{
+    min-width: 400px;
+}
+.bt-sp1,.bt-sp2{
+    margin-right: .12rem;
 }
 
 
