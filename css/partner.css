@@ -74,11 +74,14 @@ header{
 .part-header{
     width:100%;
     height: 2.5rem;
-    background-image: url("../img/partner/part.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
+    background-color: #f2a845;
+    display: flex;
+    justify-content: center;
 
+}
+.imgpart{
+    width: 970px;
+}
 
 
 
@@ -231,18 +234,30 @@ html{
 }
 @media all and (max-width: 1200px){
     .part-header{
-        height: 220px;
+        height: 175px;
+    }
+    .imgpart{
+        width: 700px;
+        height: 175px;
     }
 }
 @media all and (max-width: 992px){
     .part-header{
-        height: 190px;
+        height: 142px;
+    }
+    .imgpart{
+        width:568px ;
+        height: 142px;
     }
 
 }
 @media all and (max-width: 768px) {
     .part-header{
-        height: 160px;
+        height: 88px;
+    }
+    .imgpart{
+        width: 350px;
+        height: 88px;
     }
 
     .what{
