@@ -51,6 +51,11 @@ header{
 .job-warp span{
     float: left;
 }
+.job-warp-media{
+    display: none;
+}
+
+
 .job-warp-icon{
     margin: 0 1%;}
 .job-nav{
@@ -59,6 +64,9 @@ header{
     text-align:left;
     padding: 0 5%;
     background-color: #1cb177;
+}
+.job-nav-media{
+    display: none;
 }
 .job-nav a{
     height: 1rem;
@@ -251,6 +259,8 @@ html{
     }
 
 }
+
+
 @media all and (max-width: 768px) {
     .part-header{
         height: 88px;
@@ -263,13 +273,67 @@ html{
     .what{
         width: 40%;
     }
+    .job-warp{
+        display: none;
+    }
+    .job-warp-media{
+        display: block;
+        padding: 0 5%;
+        line-height: .4rem;
+        font-size: .14rem;
+        color:#1cb177;
+        text-align: right;
+    }
+
+    .job-nav{
+        display: none;
+    }
+    .job-nav-media{
+        position: relative;
+        display: block;
+        line-height: 1rem;
+        font-size: .14rem;
+        text-align:left;
+        padding: 0 5%;
+        background-color: #1cb177;
+    }
+    .nav-media-btn{
+        position: absolute;
+        right: .25rem;
+        top:.375rem;
+        line-height: .15rem;
+        width: .35rem;
+        border-bottom: 2px solid beige;
+        border-top: 2px solid beige;
+        background-color: #1cb177;
+    }
+
 
 }
+#nav-media:target{
+    display: block;
+}
+#nav-media{
+    display: none;
+    border-top: 1px #a4a7a7 solid;
+}
+#nav-media a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    line-height: .5rem;
+    background-color: #1cb177;
+    float: left;
+}
+#nav-media a:hover{
+    border-bottom: 1px white solid;
+}
+
+
 .bt-sp1,.bt-sp2{
     margin-right: .12rem;
 }
-
-
 
 
 
