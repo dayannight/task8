@@ -270,19 +270,26 @@ footer{
         position: absolute;
         right: .25rem;
         top:.375rem;
-        line-height: .15rem;
+
         width: .35rem;
-        border-bottom: 2px solid beige;
-        border-top: 2px solid beige;
+        height:.25rem;
         background-color: #1cb177;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        outline: none;
+        border: none;
     }
+
+    .nav-media-btn:hover{
+        background-color: #16734c;
+    }
+
 }
 
-#nav-media:target{
-    display: block;
-}
 #nav-media{
-    display: none;
     border-top: 1px #a4a7a7 solid;
 }
 #nav-media a{
@@ -333,9 +340,6 @@ footer{
     border-top: #2ab983  1px solid;
     font-size: 12px;
     background-color: #1aa36f;
-}
-html{
-    min-width: 400px;
 }
 .bt-sp1,.bt-sp2{
     margin-right: .12rem;

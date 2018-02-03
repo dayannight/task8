@@ -265,7 +265,6 @@ p{
     margin-left: -96.5px;
 }
 html{
-    min-width: 400px;
 }
 .a-fd5 img{
     position: absolute;
@@ -367,23 +366,25 @@ html{
         position: absolute;
         right: .25rem;
         top:.375rem;
-        line-height: .15rem;
         width: .35rem;
-        border-bottom: 2px solid beige;
-        border-top: 2px solid beige;
+        height:.25rem;
         background-color: #1cb177;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        border: none;
+    }
+    .nav-media-btn:hover{
+        background-color: #16734c;
     }
 
 
-
-
 }
 
-#nav-media:target{
-    display: block;
-}
+
 #nav-media{
-    display: none;
     border-top: 1px #a4a7a7 solid;
 }
 #nav-media a{
